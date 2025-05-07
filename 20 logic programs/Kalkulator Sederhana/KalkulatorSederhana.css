@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+
+body {
+  background: linear-gradient(to bottom right, #ffdde1, #ee9ca7);
+  font-family: 'Comic Neue', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.calculator {
+  background-color: #fff0f5;
+  padding: 25px;
+  border-radius: 25px;
+  width: 320px;
+  box-shadow: 0 0 15px rgba(255, 192, 203, 0.7);
+  text-align: center;
+  border: 2px dashed #ffb6c1;
+}
+
+.display input {
+  width: 90%;
+  padding: 12px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  border: 2px solid #ffc0cb;
+  border-radius: 15px;
+  text-align: right;
+  background-color: #fffafc;
+  color: #333;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.buttons button {
+  padding: 18px;
+  font-size: 20px;
+  border: none;
+  border-radius: 50%;
+  background-color: #ffb6c1;
+  color: white;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in-out;
+}
+
