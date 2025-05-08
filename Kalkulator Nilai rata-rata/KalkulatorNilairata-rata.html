@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>📊 Kalkulator Nilai Rata-Rata</h2>
+<div class="form-container">
+  <div class="section">
+    <h3>A. Mata Pelajaran Umum</h3>
+    <ol>
+      <li>Pendidikan Agama Islam dan Budi Pekerti<br><input type="number" id="nilai1" placeholder="0-100" min="0"
+          max="100"></li>
+      <li>Pendidikan Pancasila<br><input type="number" id="nilai2" placeholder="0-100" min="0" max="100"></li>
+      <li>Bahasa Indonesia<br><input type="number" id="nilai3" placeholder="0-100" min="0" max="100"></li>
+      <li>PJOK<br><input type="number" id="nilai4" placeholder="0-100" min="0" max="100"></li>
+      <li>Sejarah<br><input type="number" id="nilai5" placeholder="0-100" min="0" max="100"></li>
+      <li>Seni Musik<br><input type="number" id="nilai6" placeholder="0-100" min="0" max="100"></li>
+      <li>Muatan Lokal Bahasa Daerah<br><input type="number" id="nilai7" placeholder="0-100" min="0" max="100"></li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <h3>B. Mata Pelajaran Kejuruan</h3>
+    <ol>
+      <li>Matematika<br><input type="number" id="nilai8" placeholder="0-100" min="0" max="100"></li>
+      <li>Bahasa Inggris<br><input type="number" id="nilai9" placeholder="0-100" min="0" max="100"></li>
+      <li>Informatika<br><input type="number" id="nilai10" placeholder="0-100" min="0" max="100"></li>
+      <li>Projek IPAS<br><input type="number" id="nilai11" placeholder="0-100" min="0" max="100"></li>
+      <li>Dasar-dasar PPLG<br><input type="number" id="nilai12" placeholder="0-100" min="0" max="100"></li>
+    </ol>
+  </div>
+
+  <button onclick="hitungRataRata()">Hitung Rata-Rata</button>
+  <div id="hasil" class="hasil"></div>
+</div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
